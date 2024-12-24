@@ -1,0 +1,8 @@
+name: hello_world_workflow
+
+on: push
+jobs: 
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v2
